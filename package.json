@@ -1,0 +1,29 @@
+{
+  "name": "spxx-plus",
+  "version": "1.0.0",
+  "description": "A Tampermonkey script project written in TypeScript using ES6 modules.",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "node esbuild.js",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "@typescript-eslint/eslint-plugin": "^8.23.0",
+    "@typescript-eslint/parser": "^8.23.0",
+    "esbuild": "^0.14.0",
+    "eslint": "^9.19.0",
+    "typescript": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/tampermonkey-ts-project.git"
+  },
+  "keywords": [
+    "tampermonkey",
+    "typescript",
+    "script"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
